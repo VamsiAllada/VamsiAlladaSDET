@@ -1,6 +1,9 @@
 package assignments1;
-Scanner sc=new Scanner(System.in);
+
+import java.util.Scanner;
+
 public class HotelMenu {
+	Scanner sc=new Scanner(System.in);
 	int i,n,count;
 	System.out.println("Enter Item number (1.Dosa, 2.Idly, 3.Pongal): ");
 	i=sc.nextInt();

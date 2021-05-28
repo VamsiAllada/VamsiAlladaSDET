@@ -1,12 +1,8 @@
 package assignments2;
-
+import java.util.ArrayList;
+import java.util.List;
 public class RemoveDuplicateStrings {
-	package com.test;
 
-	import java.util.ArrayList;
-	import java.util.List;
-
-	public class Program5 {
 		static List<String> words;
 		
 		public static void main(String[] args) {
@@ -46,4 +42,3 @@ public class RemoveDuplicateStrings {
 			return uniqueWords;
 		}
 	}
-}

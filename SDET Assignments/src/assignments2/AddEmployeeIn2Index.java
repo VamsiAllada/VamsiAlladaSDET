@@ -1,13 +1,8 @@
 package assignments2;
+import java.util.ArrayList;
+import java.util.List;
 
 public class AddEmployeeIn2Index {
-	package com.test;
-
-	import java.util.ArrayList;
-	import java.util.List;
-
-
-	public class Program4 {
 		public static void main(String[] args) {
 			List<Employee> employees = new ArrayList<Employee>(5);
 			
@@ -34,4 +29,4 @@ public class AddEmployeeIn2Index {
 			}
 		}
 	}
-}
+

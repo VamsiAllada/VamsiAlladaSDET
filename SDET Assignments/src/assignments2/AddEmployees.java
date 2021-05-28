@@ -1,10 +1,8 @@
 package assignments2;
+import java.util.ArrayList;
+import java.util.List;
 
 public class AddEmployees {
-	package com.test;
-
-	import java.util.ArrayList;
-	import java.util.List;
 
 	class Employee{
 		
@@ -30,7 +28,6 @@ public class AddEmployees {
 		
 	}
 
-	public class Program2 {
 		public static void main(String[] args) {
 			List<Employee> employees = new ArrayList<Employee>();
 			
@@ -47,4 +44,3 @@ public class AddEmployees {
 			}
 		}
 	}
-}

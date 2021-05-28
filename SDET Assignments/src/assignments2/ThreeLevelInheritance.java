@@ -2,8 +2,6 @@ package assignments2;
 
 public class ThreeLevelInheritance {
 
-	package com.test;
-
 	interface Impl{
 		public void method1();
 	}
@@ -13,7 +11,7 @@ public class ThreeLevelInheritance {
 	}
 
 
-	public class Program1 extends ABCLS{
+	public class ThreeLevelInheritance extends ABCLS{
 		public static void main(String[] args) {
 			Program1 obj = new Program1();
 			obj.method1();

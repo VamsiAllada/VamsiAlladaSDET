@@ -1,11 +1,7 @@
 package assignments2;
-
+import java.util.ArrayList;
+import java.util.List;
 public class PhoneNumberAndNameCRUD {
-	package com.test;
-
-	import java.util.ArrayList;
-	import java.util.List;
-
 	interface TelephoneDirectoryOperations{
 		public void create(User user);
 		public User read(String userName);
@@ -104,17 +100,5 @@ public class PhoneNumberAndNameCRUD {
 			System.out.println("User not found to delete");
 		}
 		
-	}
-
-	public class Program6 {
-		public static void main(String[] args) {
-			TelephoneDirectoryImpl directoryServices = new TelephoneDirectoryImpl();
-			directoryServices.create(new User("ABCD", "2343"));
-			System.out.println(directoryServices.read("ABCD"));
-			directoryServices.update("ABCD", "54354");
-			System.out.println(directoryServices.read("ABCD"));		
-			directoryServices.delete("ABCD");
-			System.out.println(directoryServices.read("ABCD"));
-		}
 	}
 }
